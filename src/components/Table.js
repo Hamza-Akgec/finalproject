@@ -8,12 +8,11 @@ const Table = () => {
         const btn = document.getElementsByClassName("b")
         for (let item of btn) {
             item.addEventListener("click", () => {
-                if (item.innerText == "Cancel Message") {
-                    item.innerText = "Send Message";
-                    item.style.backgroundColor = "green";
-                } else if (item.innerText == "Send Message") {
-                    item.innerText = "Cancel Message";
-                    item.style.backgroundColor = "red";
+                if (item.innerText == "Send Message") {
+                    item.innerText = "Message Sent";
+                    item.style.backgroundColor = "#6c89c6";
+                    item.style.borderColor = "#6c89c6";
+                    item.style.borderColor = "#6c89c6";
                 } else if (item.innerText == "Depart Ambulance") {
                     item.innerText = "Stop Ambulance";
                     item.style.backgroundColor = "red";

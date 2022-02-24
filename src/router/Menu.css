@@ -43,6 +43,10 @@ div .active{
     flex-direction: column;
     color: white;
 }
+.monitor{
+    font-size: 30px;
+    padding-left: 15px;
+}
 .entry{
     font-size: 30px;
     margin-bottom: 5px;

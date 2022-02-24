@@ -10,7 +10,7 @@ const Menu = () => {
     return (
         <>
             <div className='menu_style'>
-                <h1>Monitor</h1>
+                <h1 className='monitor'>Monitor</h1>
                 <hr />
                 <NavLink exact='true' to='/'><FaListAlt className='entry' />&nbsp;&nbsp;Entries</NavLink>
 

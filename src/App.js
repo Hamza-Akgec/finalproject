@@ -31,12 +31,13 @@ const App = () => {
                     <Menu />
                 </div>
                 <div className="item item3">
-                    <div className="item3_1">
-                        <iframe width="300px" height="100px" src="https://www.youtube.com/embed/TFTh53nXnC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    {/* <div className="item3_1">
+                        <iframe width="300px" height="150px" src="https://www.youtube.com/embed/TFTh53nXnC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> */}
 
                     <div className="form">
-                        <input type="text" className='input' placeholder='Search anything from database.............' />
+                        <input type="text" className='input' placeholder='Enter key to search' />
+                        <input type="text" className='input2' placeholder='Enter value to search' />
                         <button className='searchBtn'><FcSearch className='search' />&nbsp;&nbsp;Search</button>
                     </div>
 
