@@ -14,11 +14,9 @@ const EntryTable = () => {
                 <thead className=' fs-4 table_head_data'>
                     <tr>
                         <th scope="col">S NO.</th>
-
                         <th scope="col"><FaRegistered />&nbsp;&nbsp;Vehicle Reg. Number</th>
                         <th scope="col"><FaKey />&nbsp;&nbsp;Authentication Key</th>
                         <th scope="col"><ImLocation2 />GPS Coordinate</th>
-
                         <th scope="col"><BsFillCalendar2DateFill />&nbsp;&nbsp;Accident Date</th>
                         <th scope="col"><MdOutlineAccessTimeFilled />&nbsp;&nbsp;Accident Time</th>
                     </tr>
@@ -35,31 +33,105 @@ const EntryTable = () => {
                         })} */}
                     <tr >
                         <th scope="row">1</th>
-
                         <td>12586142bdf565</td>
                         <td>MNJK</td>
                         <td>XXXXXXXXXXXX</td>
-
                         <td>{date}</td>
                         <td>{time}</td>
                     </tr>
                     <tr >
                         <th scope="row">2</th>
-
                         <td>52586142bdf565</td>
                         <td>JHBJH5465656</td>
                         <td>XXXXJEFEKNFX</td>
-
                         <td>{date}</td>
                         <td>{time}</td>
                     </tr>
                     <tr >
                         <th scope="row">3</th>
-
                         <td>25886142bdf565</td>
                         <td>BJHJH</td>
                         <td>XXJENFKJXXXXXXX</td>
-
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>XXJENFKJXXXXXXX</td>
                         <td>{date}</td>
                         <td>{time}</td>
                     </tr>

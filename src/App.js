@@ -8,6 +8,8 @@ import { FcSearch } from "react-icons/fc";
 
 // import FontAwesomeIcon from 'react-fontawesome'
 const App = () => {
+
+
     return (
         <>
             <div className="container">
@@ -23,12 +25,16 @@ const App = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="item item2">
-                    <h1>Monitor</h1>
-                    <hr />
+
                     <Menu />
                 </div>
                 <div className="item item3">
+                    <div className="item3_1">
+                        <iframe width="300px" height="100px" src="https://www.youtube.com/embed/TFTh53nXnC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
                     <div className="form">
                         <input type="text" className='input' placeholder='Search anything from database.............' />
                         <button className='searchBtn'><FcSearch className='search' />&nbsp;&nbsp;Search</button>
@@ -39,6 +45,8 @@ const App = () => {
                     <Router />
                 </div>
             </div>
+
+
         </>
     )
 }

@@ -17,16 +17,19 @@ a{
 
 }
 a:hover{
-    background-color: rgb(37, 41, 37);
+    background-color: #4f6aa3;
     color: white;
     
    
 }
+a:active{
+    font-size: 18px;
+}
 div .active{
-    color: rgb(255, 255, 255);
+    color: white;
     font-style: italic;
     /* font-weight: bold; */
-    background-color: black;
+    background-color: #3B5998;
     border-radius: 10px;
     /* border-bottom: 2px solid rgb(248, 246, 246); */
 }
@@ -38,6 +41,7 @@ div .active{
     display: flex;
     /* justify-content: space-around; */
     flex-direction: column;
+    color: white;
 }
 .entry{
     font-size: 30px;

@@ -19,7 +19,7 @@ const AuthenticationDatabase = () => {
 
                     </tr>
                 </thead>
-                <tbody className='fs-5 text-black'>
+                <tbody className='fs-5 text-black t_body'>
                     {/* {data.map((val, idx) => {
                             return <tr key={idx}>
                                 <th scope="row">{val.state}</th>
@@ -31,32 +31,77 @@ const AuthenticationDatabase = () => {
                         })} */}
                     <tr >
                         <th scope="row">1</th>
-
                         <td>12586142bdf565</td>
                         <td>MNJK</td>
                         <td>9897534395</td>
-
-
                     </tr>
                     <tr >
                         <th scope="row">2</th>
-
                         <td>52586142bdf565</td>
                         <td>JHBJH5465656</td>
                         <td>9690059970</td>
-
-
                     </tr>
                     <tr >
                         <th scope="row">3</th>
-
                         <td>25886142bdf565</td>
                         <td>BJHJH</td>
                         <td>9897534395</td>
-
-
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
                     </tr>
 
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">3</th>
+                        <td>25886142bdf565</td>
+                        <td>BJHJH</td>
+                        <td>9897534395</td>
+                    </tr>
+                    <tr >
+                        <th scope="row">1</th>
+                        <td>12586142bdf565</td>
+                        <td>MNJK</td>
+                        <td>9897534395</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
